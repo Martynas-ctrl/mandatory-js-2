@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 350px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: 200px;
+}
+
+.Login {
+  display: flex;
+}
+
+.h1 {
+  color: red;
+}
+
+.input {
+  height: 30px;
+  width: 1000px;
+}
