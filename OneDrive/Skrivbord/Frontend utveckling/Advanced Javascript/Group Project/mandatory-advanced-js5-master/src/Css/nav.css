@@ -1,0 +1,38 @@
+.bigBox{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+
+.App{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 20%;
+    width: 100%;
+    background-color: chocolate;
+}
+main{
+    height: 80%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+}
+.files{
+    width: 75%;
+    height: 100%;
+    background-color: forestgreen;
+    overflow-y: scroll;
+}
+.sideLeft{
+    width: 30%;
+    height: 100%;
+    background-color: hotpink;
+}
+.sidebarRight{
+    width: 25%;
+    height: 100%;
+    background-color: mediumblue;
+}
